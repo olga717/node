@@ -16,3 +16,6 @@ var fruits = [ "Lemon", "Orange", "Melone", "Banana"];
 var name = ["Lion", "Jon"];
 var all = name.concat(fruits);
 alert (all);
+
+var full = all.concat(fruits, name);
+alert(full);

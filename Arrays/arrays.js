@@ -19,3 +19,6 @@ alert (all);
 
 var full = all.concat(fruits, name);
 alert(full);
+
+var fullNew = full.slice(8);
+alert(fullNew);

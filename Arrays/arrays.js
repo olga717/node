@@ -9,3 +9,5 @@ alert(cars.length);
 cars.push ("Tesla");
 alert(cars);
 
+cars.pop ();
+alert (cars);

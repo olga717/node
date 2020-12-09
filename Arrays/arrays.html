@@ -8,9 +8,12 @@
 </head>
 <body>
     <p id="demo"></p>
+    <p id="demo2"></p>
     <script>
        var fruits = [ "Lemon", "Orange", "Melone", "Banana"];
        document.getElementById("demo").innerHTML = fruits.toString(); 
+       delete fruits [0];
+       document.getElementById("demo2").innerHTML = fruits; 
     </script>
     
 </body>

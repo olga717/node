@@ -7,4 +7,4 @@ alert(cars);*/
 alert(cars.length);
 
 cars.push ("Tesla");
-console.log (cars);
+/*console.log (cars);*/

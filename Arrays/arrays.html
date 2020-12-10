@@ -9,12 +9,21 @@
 <body>
     <p id="demo"></p>
     <p id="demo2"></p>
+    <p id="demo3"></p>
     <script>
        var fruits = [ "Lemon", "Orange", "Melone", "Banana"];
        document.getElementById("demo").innerHTML = fruits.toString(); 
-       delete fruits [0];
-       document.getElementById("demo2").innerHTML = fruits; 
-    </script>
+       /*delete fruits [0];
+       document.getElementById("demo2").innerHTML = fruits; */
+    
+       fruits.sort();
+  
+       document.getElementById("demo3").innerHTML = fruits; 
+       
+
+   
+   </script>
+
     
 </body>
 </html>
